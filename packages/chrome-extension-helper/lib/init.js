@@ -10,7 +10,7 @@ async function init(projectName, options) {
   const inCurrent = projectName === "."; // 是否在当前目录
   const name = inCurrent ? path.relative("../", cwd) : projectName; // 项目名称
   const targetDir = path.resolve(cwd, projectName || "."); //生成项目的目录
-  console.log(name, options, targetDir);
+
   //验证项目名是否有效
   const result = validateProjectName(name);
   if (!result.validForNewPackages) {

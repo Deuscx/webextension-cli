@@ -16,11 +16,11 @@ module.exports = cli => {
     choices: [
       {
         name: "Sass/SCSS (with node-sass)",
-        value: "node-sass"
+        value: "sass-loader"
       },
       {
         name: "Less",
-        value: "less"
+        value: "less-loader"
       }
     ]
   });
