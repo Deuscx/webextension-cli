@@ -6,7 +6,7 @@
     "chrome-extension"
   ],
   "bin": {
-    "chrome-help": "./bin/cli.js"
+    "ceh": "./bin/cli.js"
   },
   "author": "zhengjiheng <1475453714@qq.com>",
   "homepage": "",
