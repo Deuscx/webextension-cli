@@ -67,14 +67,13 @@ class Creator {
     // clone before mutating  复制预设
 
     preset = cloneDeep(preset);
-    //console.log(preset);
+
     if (preset.features === undefined) {
       error("please choose a feature");
       exit(1);
     }
     const {
       features,
-      plugins,
       useFramework,
       useHuskyAndStaged,
       cssPreprocessor
@@ -252,7 +251,7 @@ class Creator {
       preset.features = answers.features;
       preset.pages = answers.pages || [];
       preset.addon = answers.addon || [];
-      console.log(answers);
+
       // run cb registered by prompt modules to finalize the preset
       this.promptCompleteCbs.forEach(cb => cb(answers, preset));
     }
