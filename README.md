@@ -17,3 +17,7 @@ ceh init projectName
 ```
 
 ![ceh init](https://gitee.com/deuscx/tuci/raw/master/img/ceh_init.gif)
+
+TODO:
+
+- [ ]  add the different permission addons templates

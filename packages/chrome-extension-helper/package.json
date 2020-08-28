@@ -37,5 +37,6 @@
     "lodash.clonedeep": "^4.5.0",
     "lodash.merge": "^4.6.2",
     "validate-npm-package-name": "^3.0.0"
-  }
+  },
+  "gitHead": "9438852b168739d9c54b199e1ec5b6424e0eb2dc"
 }
