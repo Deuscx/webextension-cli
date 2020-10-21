@@ -106,6 +106,7 @@ class Creator {
         "cross-env": "^7.0.2",
 
         "file-loader": "^6.0.0",
+        "clean-webpack-plugin": "^3.0.0",
         "html-webpack-plugin": "^4.3.0",
         "mini-css-extract-plugin": "^0.10.0",
         cssnano: "^4.1.10",
@@ -174,14 +175,15 @@ class Creator {
 
     //css professor
     if (hasOneFeature("css-preprocessor")) {
+      
       let config = {
-        "node-sass": {
+        "sass-loader": {
           devDependencies: {
             "node-sass": "^4.14.1",
             "sass-loader": "^10.0.1"
           }
         },
-        less: {
+        'less-loader': {
           devDependencies: {
             "less-loader": "^7.0.0"
           }

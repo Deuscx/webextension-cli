@@ -1,5 +1,6 @@
-function greeter(person: string) {
+function greeter(person) {
   return `Hello, ${person}`;
 }
-console.log(1);
+
 const user = 'Jane User';
+greeter(user)
