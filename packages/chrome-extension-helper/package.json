@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-helper-cli",
-  "version": "1.0.3",
+  "version": "1.0.4-alpha.0",
   "description": "this is a chrome extension quicker cli",
   "keywords": [
     "chrome-extension"
@@ -27,7 +27,7 @@
     "init": "node ./bin/cli.js init"
   },
   "dependencies": {
-    "chrome-extension-cli-utils": "^1.0.3",
+    "chrome-extension-cli-utils": "^1.0.4-alpha.0",
     "clear": "^0.1.0",
     "commander": "^6.0.0",
     "download-git-repo": "^3.0.2",
